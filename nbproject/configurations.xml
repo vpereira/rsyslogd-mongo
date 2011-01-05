@@ -1,0 +1,937 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configurationDescriptor version="69">
+  <logicalFolder name="root" displayName="root" projectFiles="true">
+    <df name="rsyslog-5.6.2" root=".">
+      <df name=".deps">
+      </df>
+      <df name=".libs">
+      </df>
+      <df name="autom4te.cache">
+        <in>output.0</in>
+        <in>requests</in>
+        <in>traces.0</in>
+      </df>
+      <df name="contrib" kind="SOURCE_LOGICAL_FOLDER">
+        <df name="gnutls" kind="SOURCE_LOGICAL_FOLDER">
+        </df>
+      </df>
+      <df name="doc" kind="SOURCE_LOGICAL_FOLDER">
+        <df name="src" kind="SOURCE_LOGICAL_FOLDER">
+        </df>
+      </df>
+      <df name="freebsd" kind="SOURCE_LOGICAL_FOLDER">
+      </df>
+      <df name="java" kind="SOURCE_LOGICAL_FOLDER">
+      </df>
+      <df name="m4" kind="SOURCE_LOGICAL_FOLDER">
+      </df>
+      <df name="plugins" kind="SOURCE_LOGICAL_FOLDER">
+        <df name="cust1" kind="SOURCE_LOGICAL_FOLDER">
+          <df name=".deps">
+          </df>
+          <in>cust1.c</in>
+        </df>
+        <df name="im3195" kind="SOURCE_LOGICAL_FOLDER">
+          <df name=".deps">
+          </df>
+          <in>im3195.c</in>
+        </df>
+        <df name="imdiag" kind="SOURCE_LOGICAL_FOLDER">
+          <df name=".deps">
+          </df>
+          <in>imdiag.c</in>
+        </df>
+        <df name="imfile" kind="SOURCE_LOGICAL_FOLDER">
+          <df name=".deps">
+          </df>
+          <in>imfile.c</in>
+        </df>
+        <df name="imgssapi" kind="SOURCE_LOGICAL_FOLDER">
+          <df name=".deps">
+          </df>
+          <in>imgssapi.c</in>
+        </df>
+        <df name="imklog" kind="SOURCE_LOGICAL_FOLDER">
+          <df name=".deps">
+          </df>
+          <df name=".libs">
+          </df>
+          <in>bsd.c</in>
+          <in>imklog.c</in>
+          <in>imklog.h</in>
+          <in>ksym.c</in>
+          <in>ksym_mod.c</in>
+          <in>ksyms.h</in>
+          <in>linux.c</in>
+          <in>module.h</in>
+        </df>
+        <df name="immark" kind="SOURCE_LOGICAL_FOLDER">
+          <df name=".deps">
+          </df>
+          <df name=".libs">
+          </df>
+          <in>immark.c</in>
+          <in>immark.h</in>
+        </df>
+        <df name="imptcp" kind="SOURCE_LOGICAL_FOLDER">
+          <df name=".deps">
+          </df>
+          <in>imptcp.c</in>
+        </df>
+        <df name="imrelp" kind="SOURCE_LOGICAL_FOLDER">
+          <df name=".deps">
+          </df>
+          <in>imrelp.c</in>
+        </df>
+        <df name="imsolaris" kind="SOURCE_LOGICAL_FOLDER">
+          <df name=".deps">
+          </df>
+          <in>imsolaris.c</in>
+          <in>imsolaris.h</in>
+          <in>sun_cddl.c</in>
+          <in>sun_cddl.h</in>
+        </df>
+        <df name="imtcp" kind="SOURCE_LOGICAL_FOLDER">
+          <df name=".deps">
+          </df>
+          <df name=".libs">
+          </df>
+          <in>imtcp.c</in>
+        </df>
+        <df name="imtemplate" kind="SOURCE_LOGICAL_FOLDER">
+          <df name=".deps">
+          </df>
+          <in>imtemplate.c</in>
+        </df>
+        <df name="imudp" kind="SOURCE_LOGICAL_FOLDER">
+          <df name=".deps">
+          </df>
+          <df name=".libs">
+          </df>
+          <in>imudp.c</in>
+        </df>
+        <df name="imuxsock" kind="SOURCE_LOGICAL_FOLDER">
+          <df name=".deps">
+          </df>
+          <df name=".libs">
+          </df>
+          <in>imuxsock.c</in>
+        </df>
+        <df name="omdbalerting" kind="SOURCE_LOGICAL_FOLDER">
+          <df name=".deps">
+          </df>
+          <in>omdbalerting.c</in>
+        </df>
+        <df name="omgssapi" kind="SOURCE_LOGICAL_FOLDER">
+          <df name=".deps">
+          </df>
+          <in>omgssapi.c</in>
+        </df>
+        <df name="omlibdbi" kind="SOURCE_LOGICAL_FOLDER">
+          <df name=".deps">
+          </df>
+          <in>omlibdbi.c</in>
+        </df>
+        <df name="ommail" kind="SOURCE_LOGICAL_FOLDER">
+          <df name=".deps">
+          </df>
+          <in>ommail.c</in>
+        </df>
+        <df name="ommongodb">
+          <df name=".deps">
+          </df>
+          <df name=".libs">
+          </df>
+          <df name="mongo-c-driver">
+            <df name="src" kind="SOURCE_LOGICAL_FOLDER">
+              <in>bson.c</in>
+              <in>bson.h</in>
+              <in>md5.c</in>
+              <in>md5.h</in>
+              <in>mongo.c</in>
+              <in>mongo.h</in>
+              <in>mongo_except.h</in>
+              <in>numbers.c</in>
+              <in>platform_hacks.h</in>
+            </df>
+            <in>APACHE-2.0.txt</in>
+            <in>README</in>
+            <in>SConstruct</in>
+          </df>
+          <in>ommongodb.c</in>
+        </df>
+        <df name="ommysql" kind="SOURCE_LOGICAL_FOLDER">
+          <df name=".deps">
+          </df>
+          <df name="contrib" kind="SOURCE_LOGICAL_FOLDER">
+          </df>
+          <in>ommysql.c</in>
+          <in>ommysql.h</in>
+        </df>
+        <df name="omoracle" kind="SOURCE_LOGICAL_FOLDER">
+          <df name=".deps">
+          </df>
+          <in>omoracle.c</in>
+          <in>omoracle.h</in>
+        </df>
+        <df name="ompgsql" kind="SOURCE_LOGICAL_FOLDER">
+          <df name=".deps">
+          </df>
+          <in>ompgsql.c</in>
+          <in>ompgsql.h</in>
+        </df>
+        <df name="omprog" kind="SOURCE_LOGICAL_FOLDER">
+          <df name=".deps">
+          </df>
+          <in>omprog.c</in>
+        </df>
+        <df name="omrelp" kind="SOURCE_LOGICAL_FOLDER">
+          <df name=".deps">
+          </df>
+          <in>omrelp.c</in>
+        </df>
+        <df name="omruleset" kind="SOURCE_LOGICAL_FOLDER">
+          <df name=".deps">
+          </df>
+          <df name=".libs">
+          </df>
+          <in>omruleset.c</in>
+        </df>
+        <df name="omsnmp" kind="SOURCE_LOGICAL_FOLDER">
+          <df name=".deps">
+          </df>
+          <in>omsnmp.c</in>
+          <in>omsnmp.h</in>
+        </df>
+        <df name="omstdout" kind="SOURCE_LOGICAL_FOLDER">
+          <df name=".deps">
+          </df>
+          <in>omstdout.c</in>
+        </df>
+        <df name="omtemplate" kind="SOURCE_LOGICAL_FOLDER">
+          <df name=".deps">
+          </df>
+          <in>omtemplate.c</in>
+        </df>
+        <df name="omtesting" kind="SOURCE_LOGICAL_FOLDER">
+          <df name=".deps">
+          </df>
+          <df name=".libs">
+          </df>
+          <in>omtesting.c</in>
+        </df>
+        <df name="omudpspoof" kind="SOURCE_LOGICAL_FOLDER">
+          <df name=".deps">
+          </df>
+          <in>omudpspoof.c</in>
+        </df>
+        <df name="omuxsock" kind="SOURCE_LOGICAL_FOLDER">
+          <df name=".deps">
+          </df>
+          <in>omuxsock.c</in>
+        </df>
+        <df name="pmlastmsg" kind="SOURCE_LOGICAL_FOLDER">
+          <df name=".deps">
+          </df>
+          <in>pmlastmsg.c</in>
+        </df>
+        <df name="pmrfc3164sd" kind="SOURCE_LOGICAL_FOLDER">
+          <df name=".deps">
+          </df>
+          <in>pmrfc3164sd.c</in>
+        </df>
+      </df>
+      <df name="runtime" kind="SOURCE_LOGICAL_FOLDER">
+        <df name=".deps">
+        </df>
+        <df name=".libs">
+        </df>
+        <in>apc.c</in>
+        <in>apc.h</in>
+        <in>atomic.h</in>
+        <in>batch.h</in>
+        <in>cfsysline.c</in>
+        <in>cfsysline.h</in>
+        <in>conf.c</in>
+        <in>conf.h</in>
+        <in>ctok.c</in>
+        <in>ctok.h</in>
+        <in>ctok_token.c</in>
+        <in>ctok_token.h</in>
+        <in>datetime.c</in>
+        <in>datetime.h</in>
+        <in>debug.c</in>
+        <in>debug.h</in>
+        <in>errmsg.c</in>
+        <in>errmsg.h</in>
+        <in>expr.c</in>
+        <in>expr.h</in>
+        <in>glbl.c</in>
+        <in>glbl.h</in>
+        <in>linkedlist.c</in>
+        <in>linkedlist.h</in>
+        <in>module-template.h</in>
+        <in>modules.c</in>
+        <in>modules.h</in>
+        <in>msg.c</in>
+        <in>msg.h</in>
+        <in>net.c</in>
+        <in>net.h</in>
+        <in>netstrm.c</in>
+        <in>netstrm.h</in>
+        <in>netstrms.c</in>
+        <in>netstrms.h</in>
+        <in>nsd.h</in>
+        <in>nsd_gtls.c</in>
+        <in>nsd_gtls.h</in>
+        <in>nsd_ptcp.c</in>
+        <in>nsd_ptcp.h</in>
+        <in>nsdpoll_ptcp.c</in>
+        <in>nsdpoll_ptcp.h</in>
+        <in>nsdsel_gtls.c</in>
+        <in>nsdsel_gtls.h</in>
+        <in>nsdsel_ptcp.c</in>
+        <in>nsdsel_ptcp.h</in>
+        <in>nspoll.c</in>
+        <in>nspoll.h</in>
+        <in>nssel.c</in>
+        <in>nssel.h</in>
+        <in>obj-types.h</in>
+        <in>obj.c</in>
+        <in>obj.h</in>
+        <in>objomsr.c</in>
+        <in>objomsr.h</in>
+        <in>parser.c</in>
+        <in>parser.h</in>
+        <in>prop.c</in>
+        <in>prop.h</in>
+        <in>queue.c</in>
+        <in>queue.h</in>
+        <in>regexp.c</in>
+        <in>regexp.h</in>
+        <in>rsyslog.c</in>
+        <in>rsyslog.h</in>
+        <in>rule.c</in>
+        <in>rule.h</in>
+        <in>ruleset.c</in>
+        <in>ruleset.h</in>
+        <in>srUtils.h</in>
+        <in>srutils.c</in>
+        <in>stream.c</in>
+        <in>stream.h</in>
+        <in>strgen.c</in>
+        <in>strgen.h</in>
+        <in>stringbuf.c</in>
+        <in>stringbuf.h</in>
+        <in>strms_sess.c</in>
+        <in>strms_sess.h</in>
+        <in>strmsrv.c</in>
+        <in>strmsrv.h</in>
+        <in>sync.c</in>
+        <in>sync.h</in>
+        <in>syslogd-types.h</in>
+        <in>sysvar.c</in>
+        <in>sysvar.h</in>
+        <in>typedefs.h</in>
+        <in>unicode-helper.h</in>
+        <in>unlimited_select.h</in>
+        <in>var.c</in>
+        <in>var.h</in>
+        <in>vm.c</in>
+        <in>vm.h</in>
+        <in>vmop.c</in>
+        <in>vmop.h</in>
+        <in>vmprg.c</in>
+        <in>vmprg.h</in>
+        <in>vmstk.c</in>
+        <in>vmstk.h</in>
+        <in>wti.c</in>
+        <in>wti.h</in>
+        <in>wtp.c</in>
+        <in>wtp.h</in>
+        <in>zlibw.c</in>
+        <in>zlibw.h</in>
+      </df>
+      <df name="slackware" kind="SOURCE_LOGICAL_FOLDER">
+      </df>
+      <df name="tools" kind="SOURCE_LOGICAL_FOLDER">
+        <df name=".deps">
+        </df>
+        <df name=".libs">
+        </df>
+        <in>gethostn.c</in>
+        <in>iminternal.c</in>
+        <in>iminternal.h</in>
+        <in>msggen.c</in>
+        <in>omdiscard.c</in>
+        <in>omdiscard.h</in>
+        <in>omfile.c</in>
+        <in>omfile.h</in>
+        <in>omfwd.c</in>
+        <in>omfwd.h</in>
+        <in>ompipe.c</in>
+        <in>ompipe.h</in>
+        <in>omshell.c</in>
+        <in>omshell.h</in>
+        <in>omusrmsg.c</in>
+        <in>omusrmsg.h</in>
+        <in>pidfile.c</in>
+        <in>pidfile.h</in>
+        <in>pmrfc3164.c</in>
+        <in>pmrfc3164.h</in>
+        <in>pmrfc5424.c</in>
+        <in>pmrfc5424.h</in>
+        <in>smfile.c</in>
+        <in>smfile.h</in>
+        <in>smfwd.c</in>
+        <in>smfwd.h</in>
+        <in>smtradfile.c</in>
+        <in>smtradfile.h</in>
+        <in>smtradfwd.c</in>
+        <in>smtradfwd.h</in>
+        <in>syslogd.c</in>
+        <in>syslogd.h</in>
+        <in>zpipe.c</in>
+      </df>
+      <in>action.c</in>
+      <in>action.h</in>
+      <in>config.h</in>
+      <in>dirty.h</in>
+      <in>gss-misc.c</in>
+      <in>gss-misc.h</in>
+      <in>outchannel.c</in>
+      <in>outchannel.h</in>
+      <in>parse.c</in>
+      <in>parse.h</in>
+      <in>tcpclt.c</in>
+      <in>tcpclt.h</in>
+      <in>tcps_sess.c</in>
+      <in>tcps_sess.h</in>
+      <in>tcpsrv.c</in>
+      <in>tcpsrv.h</in>
+      <in>template.c</in>
+      <in>template.h</in>
+      <in>threads.c</in>
+      <in>threads.h</in>
+    </df>
+    <logicalFolder name="ExternalFiles"
+                   displayName="Important Files"
+                   projectFiles="false"
+                   kind="IMPORTANT_FILES_FOLDER">
+      <itemPath>Makefile</itemPath>
+      <itemPath>Makefile-rsyslog-5.6.2.mk</itemPath>
+      <itemPath>configure</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>.</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile-rsyslog-5.6.2.mk</projectmakefile>
+  <confs>
+    <conf name="Default" type="0">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <compilerSet>GNU|GNU</compilerSet>
+        <platform>2</platform>
+      </toolsSet>
+      <makefileType>
+        <makeTool>
+          <buildCommandWorkingDir>.</buildCommandWorkingDir>
+          <buildCommand>$(MAKE) -f Makefile</buildCommand>
+          <cleanCommand>$(MAKE) -f Makefile clean</cleanCommand>
+          <executablePath></executablePath>
+          <cTool>
+            <incDir>
+              <pElem>runtime</pElem>
+              <pElem>.</pElem>
+            </incDir>
+            <preprocessorList>
+              <Elem>HAVE_CONFIG_H=1</Elem>
+              <Elem>__REGISTER_PREFIX__=</Elem>
+              <Elem>_REENTRANT=1</Elem>
+              <Elem>__USER_LABEL_PREFIX__=</Elem>
+            </preprocessorList>
+          </cTool>
+        </makeTool>
+      </makefileType>
+      <item path="action.c" ex="false" tool="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>__PIC__=2</Elem>
+            <Elem>PIC=1</Elem>
+            <Elem>__pic__=2</Elem>
+            <Elem>_PATH_MODDIR="/usr/local/lib/rsyslog/"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <folder path="rsyslog-5.6.2/plugins">
+        <cTool>
+          <preprocessorList>
+            <Elem>PIC=1</Elem>
+            <Elem>__pic__=2</Elem>
+            <Elem>__PIC__=2</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="rsyslog-5.6.2/plugins/imklog">
+        <cTool>
+          <incDir>
+            <pElem>plugins/imklog</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="rsyslog-5.6.2/plugins/immark">
+        <cTool>
+          <incDir>
+            <pElem>plugins/immark</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="rsyslog-5.6.2/plugins/imtcp">
+        <cTool>
+          <incDir>
+            <pElem>plugins/imtcp</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="rsyslog-5.6.2/plugins/imudp">
+        <cTool>
+          <incDir>
+            <pElem>plugins/imudp</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="rsyslog-5.6.2/plugins/imuxsock">
+        <cTool>
+          <incDir>
+            <pElem>plugins/imuxsock</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="rsyslog-5.6.2/plugins/omruleset">
+        <cTool>
+          <incDir>
+            <pElem>plugins/omruleset</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="rsyslog-5.6.2/plugins/omtesting">
+        <cTool>
+          <incDir>
+            <pElem>plugins/omtesting</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <folder path="rsyslog-5.6.2/runtime">
+        <cTool>
+          <preprocessorList>
+            <Elem>PIC=1</Elem>
+            <Elem>__pic__=2</Elem>
+            <Elem>__PIC__=2</Elem>
+          </preprocessorList>
+        </cTool>
+      </folder>
+      <folder path="rsyslog-5.6.2/tools">
+        <cTool>
+          <incDir>
+            <pElem>tools</pElem>
+          </incDir>
+        </cTool>
+      </folder>
+      <item path="gss-misc.c" ex="true" tool="0">
+      </item>
+      <item path="gss-misc.h" ex="true" tool="3">
+      </item>
+      <item path="outchannel.c" ex="false" tool="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>__PIC__=2</Elem>
+            <Elem>PIC=1</Elem>
+            <Elem>__pic__=2</Elem>
+            <Elem>_PATH_MODDIR="/usr/local/lib/rsyslog/"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="parse.c" ex="false" tool="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>__PIC__=2</Elem>
+            <Elem>PIC=1</Elem>
+            <Elem>__pic__=2</Elem>
+            <Elem>_PATH_MODDIR="/usr/local/lib/rsyslog/"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="plugins/cust1/cust1.c" ex="true" tool="0">
+      </item>
+      <item path="plugins/im3195/im3195.c" ex="true" tool="0">
+      </item>
+      <item path="plugins/imdiag/imdiag.c" ex="true" tool="0">
+      </item>
+      <item path="plugins/imfile/imfile.c" ex="true" tool="0">
+      </item>
+      <item path="plugins/imgssapi/imgssapi.c" ex="true" tool="0">
+      </item>
+      <item path="plugins/imklog/bsd.c" ex="true" tool="0">
+      </item>
+      <item path="plugins/immark/immark.h" ex="true" tool="3">
+      </item>
+      <item path="plugins/imptcp/imptcp.c" ex="true" tool="0">
+      </item>
+      <item path="plugins/imrelp/imrelp.c" ex="true" tool="0">
+      </item>
+      <item path="plugins/imsolaris/imsolaris.c" ex="true" tool="0">
+      </item>
+      <item path="plugins/imsolaris/imsolaris.h" ex="true" tool="3">
+      </item>
+      <item path="plugins/imsolaris/sun_cddl.c" ex="true" tool="0">
+      </item>
+      <item path="plugins/imsolaris/sun_cddl.h" ex="true" tool="3">
+      </item>
+      <item path="plugins/imtemplate/imtemplate.c" ex="true" tool="0">
+      </item>
+      <item path="plugins/omdbalerting/omdbalerting.c" ex="true" tool="0">
+      </item>
+      <item path="plugins/omgssapi/omgssapi.c" ex="true" tool="0">
+      </item>
+      <item path="plugins/omlibdbi/omlibdbi.c" ex="true" tool="0">
+      </item>
+      <item path="plugins/ommail/ommail.c" ex="true" tool="0">
+      </item>
+      <item path="plugins/ommysql/ommysql.c" ex="true" tool="0">
+      </item>
+      <item path="plugins/ommysql/ommysql.h" ex="true" tool="3">
+      </item>
+      <item path="plugins/omoracle/omoracle.c" ex="true" tool="0">
+      </item>
+      <item path="plugins/omoracle/omoracle.h" ex="true" tool="3">
+      </item>
+      <item path="plugins/ompgsql/ompgsql.c" ex="true" tool="0">
+      </item>
+      <item path="plugins/ompgsql/ompgsql.h" ex="true" tool="3">
+      </item>
+      <item path="plugins/omprog/omprog.c" ex="true" tool="0">
+      </item>
+      <item path="plugins/omrelp/omrelp.c" ex="true" tool="0">
+      </item>
+      <item path="plugins/omsnmp/omsnmp.c" ex="true" tool="0">
+      </item>
+      <item path="plugins/omsnmp/omsnmp.h" ex="true" tool="3">
+      </item>
+      <item path="plugins/omstdout/omstdout.c" ex="true" tool="0">
+      </item>
+      <item path="plugins/omtemplate/omtemplate.c" ex="true" tool="0">
+      </item>
+      <item path="plugins/omudpspoof/omudpspoof.c" ex="true" tool="0">
+      </item>
+      <item path="plugins/omuxsock/omuxsock.c" ex="true" tool="0">
+      </item>
+      <item path="plugins/pmlastmsg/pmlastmsg.c" ex="true" tool="0">
+      </item>
+      <item path="plugins/pmrfc3164sd/pmrfc3164sd.c" ex="true" tool="0">
+      </item>
+      <item path="runtime/apc.c" ex="false" tool="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>_PATH_MODDIR="/usr/local/lib/rsyslog/"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="runtime/cfsysline.c" ex="false" tool="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>_PATH_MODDIR="/usr/local/lib/rsyslog/"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="runtime/conf.c" ex="false" tool="0">
+        <cTool>
+          <incDir>
+            <pElem>tools</pElem>
+          </incDir>
+          <preprocessorList>
+            <Elem>_PATH_MODDIR="/usr/local/lib/rsyslog/"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="runtime/ctok.c" ex="false" tool="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>_PATH_MODDIR="/usr/local/lib/rsyslog/"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="runtime/ctok_token.c" ex="false" tool="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>_PATH_MODDIR="/usr/local/lib/rsyslog/"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="runtime/datetime.c" ex="false" tool="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>_PATH_MODDIR="/usr/local/lib/rsyslog/"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="runtime/debug.c" ex="false" tool="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>_PATH_MODDIR="/usr/local/lib/rsyslog/"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="runtime/errmsg.c" ex="false" tool="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>_PATH_MODDIR="/usr/local/lib/rsyslog/"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="runtime/expr.c" ex="false" tool="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>_PATH_MODDIR="/usr/local/lib/rsyslog/"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="runtime/glbl.c" ex="false" tool="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>_PATH_MODDIR="/usr/local/lib/rsyslog/"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="runtime/linkedlist.c" ex="false" tool="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>_PATH_MODDIR="/usr/local/lib/rsyslog/"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="runtime/modules.c" ex="false" tool="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>_PATH_MODDIR="/usr/local/lib/rsyslog/"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="runtime/msg.c" ex="false" tool="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>_PATH_MODDIR="/usr/local/lib/rsyslog/"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="runtime/nsd_gtls.c" ex="true" tool="0">
+      </item>
+      <item path="runtime/nsd_gtls.h" ex="true" tool="3">
+      </item>
+      <item path="runtime/nsdsel_gtls.c" ex="true" tool="0">
+      </item>
+      <item path="runtime/nsdsel_gtls.h" ex="true" tool="3">
+      </item>
+      <item path="runtime/obj.c" ex="false" tool="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>_PATH_MODDIR="/usr/local/lib/rsyslog/"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="runtime/objomsr.c" ex="false" tool="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>_PATH_MODDIR="/usr/local/lib/rsyslog/"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="runtime/parser.c" ex="false" tool="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>_PATH_MODDIR="/usr/local/lib/rsyslog/"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="runtime/prop.c" ex="false" tool="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>_PATH_MODDIR="/usr/local/lib/rsyslog/"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="runtime/queue.c" ex="false" tool="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>_PATH_MODDIR="/usr/local/lib/rsyslog/"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="runtime/rsyslog.c" ex="false" tool="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>_PATH_MODDIR="/usr/local/lib/rsyslog/"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="runtime/rule.c" ex="false" tool="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>_PATH_MODDIR="/usr/local/lib/rsyslog/"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="runtime/ruleset.c" ex="false" tool="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>_PATH_MODDIR="/usr/local/lib/rsyslog/"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="runtime/srutils.c" ex="false" tool="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>_PATH_MODDIR="/usr/local/lib/rsyslog/"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="runtime/stream.c" ex="false" tool="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>_PATH_MODDIR="/usr/local/lib/rsyslog/"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="runtime/strgen.c" ex="false" tool="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>_PATH_MODDIR="/usr/local/lib/rsyslog/"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="runtime/stringbuf.c" ex="false" tool="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>_PATH_MODDIR="/usr/local/lib/rsyslog/"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="runtime/sync.c" ex="false" tool="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>_PATH_MODDIR="/usr/local/lib/rsyslog/"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="runtime/sysvar.c" ex="false" tool="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>_PATH_MODDIR="/usr/local/lib/rsyslog/"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="runtime/var.c" ex="false" tool="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>_PATH_MODDIR="/usr/local/lib/rsyslog/"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="runtime/vm.c" ex="false" tool="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>_PATH_MODDIR="/usr/local/lib/rsyslog/"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="runtime/vmop.c" ex="false" tool="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>_PATH_MODDIR="/usr/local/lib/rsyslog/"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="runtime/vmprg.c" ex="false" tool="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>_PATH_MODDIR="/usr/local/lib/rsyslog/"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="runtime/vmstk.c" ex="false" tool="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>_PATH_MODDIR="/usr/local/lib/rsyslog/"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="runtime/wti.c" ex="false" tool="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>_PATH_MODDIR="/usr/local/lib/rsyslog/"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="runtime/wtp.c" ex="false" tool="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>_PATH_MODDIR="/usr/local/lib/rsyslog/"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="tcpclt.c" ex="false" tool="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>__PIC__=2</Elem>
+            <Elem>PIC=1</Elem>
+            <Elem>__pic__=2</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="tcps_sess.c" ex="false" tool="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>__PIC__=2</Elem>
+            <Elem>PIC=1</Elem>
+            <Elem>__pic__=2</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="tcpsrv.c" ex="false" tool="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>__PIC__=2</Elem>
+            <Elem>PIC=1</Elem>
+            <Elem>__pic__=2</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="template.c" ex="false" tool="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>__PIC__=2</Elem>
+            <Elem>PIC=1</Elem>
+            <Elem>__pic__=2</Elem>
+            <Elem>_PATH_MODDIR="/usr/local/lib/rsyslog/"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="threads.c" ex="false" tool="0">
+        <cTool>
+          <preprocessorList>
+            <Elem>__PIC__=2</Elem>
+            <Elem>PIC=1</Elem>
+            <Elem>__pic__=2</Elem>
+            <Elem>_PATH_MODDIR="/usr/local/lib/rsyslog/"</Elem>
+          </preprocessorList>
+        </cTool>
+      </item>
+      <item path="tools/gethostn.c" ex="true" tool="0">
+      </item>
+      <item path="tools/msggen.c" ex="true" tool="0">
+      </item>
+      <item path="tools/zpipe.c" ex="true" tool="0">
+      </item>
+    </conf>
+  </confs>
+</configurationDescriptor>
