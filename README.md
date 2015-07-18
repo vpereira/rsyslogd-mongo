@@ -1,4 +1,7 @@
-plugin to use MongoDB as backend.
+# plugin to use MongoDB as backend.
+
+## Status: unmaintained: code was already pushed upstream.
+
 
 tested in ubuntu 10.04 and ubuntu 10.10
 
